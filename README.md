@@ -1,6 +1,10 @@
 # Zen [![](https://jitpack.io/v/forax/zen.svg)](https://jitpack.io/#forax/zen)
 A bare bone graphic library in Java (on top of AWT) for teaching purpose, use at your own risk.
 
+Download [zen-6.0.jar](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0.jar),
+[zen-6.0-sources.jar](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0-sources.jar) or
+[zen-6.0-javadoc.jar](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0-javadoc.jar).
+
 Zen provides
 - a way to open a drawing area in full screen mode
   ```java
@@ -25,11 +29,11 @@ Zen provides
   ```
 
 ### How to use Zen with Eclipse ?
-  The jar file `zen-6.jar` is available on [JitPack](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0.jar),
+  Download the jar file [zen-6.0.jar](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0.jar)
   then follow https://stackoverflow.com/questions/11463354/how-to-put-a-jar-in-classpath-in-eclipse.
 
 ### How to use Zen with Ant ?
-  The jar file `zen-6.jar` available on [JitPack](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0.jar)
+  Download the jar file [zen-6.0.jar](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0.jar)
   then follow https://stackoverflow.com/questions/7057229/how-to-include-classpath-jars-into-a-jar-in-ant. 
 
 ### How to use Zen with Maven ?
