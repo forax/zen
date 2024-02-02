@@ -19,7 +19,7 @@ import java.util.function.Consumer;
 
 /**
  * Starts the GUI application with {@link #run(Color, Consumer)}.
- *
+ * <p>
  * This is the entrypoint of Zen 6.
  */
 public final class Application {
