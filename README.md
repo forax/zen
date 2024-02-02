@@ -14,7 +14,7 @@ Zen provides
   ```java
   Event event = context.pollEvent();
   ```
-  The event is either a keyboard event (`KeyboardEvent`) or a mouse pointer event (`PointerEvent`)
+  The `event` is either a keyboard event (`KeyboardEvent`) or a mouse pointer event (`PointerEvent`)
   
 - a way to draw on the drawing area
   ```java
@@ -25,15 +25,17 @@ Zen provides
   ```
 
 ### How to use Zen with Eclipse ?
-You have to add the file `zen-6.jar` available on [JitPack](https://jitpack.io/#forax/zen) to the classpath.
+  The jar file `zen-6.jar` is available on [JitPack](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0.jar),
+  then follow https://stackoverflow.com/questions/11463354/how-to-put-a-jar-in-classpath-in-eclipse.
 
 ### How to use Zen with Ant ?
-  You have to add the file `zen-6.jar` available on [JitPack](https://jitpack.io/#forax/zen) to the classpath.
+  The jar file `zen-6.jar` available on [JitPack](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0.jar)
+  then follow https://stackoverflow.com/questions/7057229/how-to-include-classpath-jars-into-a-jar-in-ant. 
 
 ### How to use Zen with Maven ?
-  The latest binary distribution of Zen is available on [JitPack](https://jitpack.io/#forax/zen)
+  The latest binary distribution of Zen is available on [JitPack](https://jitpack.io/#forax/zen).
 
-  So first, you need to add Jitpack as repository
+  So first, you need to add Jitpack as a repository in the POM file,
   ```xml
   ...
   <repositories>
@@ -45,7 +47,7 @@ You have to add the file `zen-6.jar` available on [JitPack](https://jitpack.io/#
   </repositories>
   ```
 
-  and then add Zen to dependencies
+  and then add Zen as a dependency
   ```xml
   <dependencies>
       ...
@@ -58,8 +60,9 @@ You have to add the file `zen-6.jar` available on [JitPack](https://jitpack.io/#
   ```
 
 ### How to use Zen with Gradle ?
+  The latest binary distribution of Zen is available on [JitPack](https://jitpack.io/#forax/zen). 
 
-```gradle
+  ```gradle
   repositories {
       ...
       maven { url 'https://jitpack.io' }
@@ -70,15 +73,15 @@ You have to add the file `zen-6.jar` available on [JitPack](https://jitpack.io/#
 ```
 
 ### How to use the Graphics2D object ?
-Oracle has is a nice tutorial explaining how to use the class `Graphics2D`,
-https://docs.oracle.com/javase/tutorial/2d/
+  Oracle has is a nice tutorial explaining how to use the class `Graphics2D`,
+  https://docs.oracle.com/javase/tutorial/2d/
 
 ### Where is the javadoc of Zen ?
-The javadoc is [available online](https://jitpack.io/com/github/forax/zen/6.0/javadoc/).
+  The javadoc is [available online](https://jitpack.io/com/github/forax/zen/6.0/javadoc/).
   
 ### Is there a demo file of Zen ?
-Yes, see [Demo.java](src/test/java/com/github/forax/zen/Demo.java)
+  Yes, see [Demo.java](src/test/java/com/github/forax/zen/Demo.java)
 
-### How can i create buttons and other graphics componenets
-The idea of Zen is to provide just the bare minimum to draw something on screen, exposing an instance of `Graphics2D`.
-If you want graphics components, you have to implement them by yourself, on top of Zen, which is a nice exercice BTW.
+### How can i create buttons and other graphics components
+  The idea of Zen is to provide just the bare minimum to draw something on screen, exposing an instance of `Graphics2D`.
+  If you want graphics components, you have to implement them by yourself, on top of Zen, which is a nice exercice BTW.
