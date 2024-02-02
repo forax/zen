@@ -1,4 +1,4 @@
-# Zen
+# Zen [![](https://jitpack.io/v/forax/zen.svg)](https://jitpack.io/#forax/zen)
 A bare bone graphic library in Java (on top of AWT) for teaching purpose, use at your own risk.
 
 Zen provides
@@ -33,7 +33,7 @@ Zen provides
   then follow https://stackoverflow.com/questions/7057229/how-to-include-classpath-jars-into-a-jar-in-ant. 
 
 ### How to use Zen with Maven ?
-  The latest binary distribution of Zen is available on [JitPack](https://jitpack.io/#forax/zen).
+  The latest binary distribution of Zen is available on JitPack repository.
 
   So first, you need to add Jitpack as a repository in the POM file,
   ```xml
@@ -60,7 +60,7 @@ Zen provides
   ```
 
 ### How to use Zen with Gradle ?
-  The latest binary distribution of Zen is available on [JitPack](https://jitpack.io/#forax/zen). 
+  The latest binary distribution of Zen is available on JitPack repository. 
 
   ```gradle
   repositories {
