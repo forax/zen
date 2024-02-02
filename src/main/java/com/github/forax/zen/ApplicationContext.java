@@ -5,11 +5,11 @@ import java.util.function.Consumer;
 
 /**
  * The application context
- * <li>
+ * <ul>
  *   <li>{@link #renderFrame(Consumer) renders} graphics instructions ({@link Graphics2D})
  *       to the drawing area of the application,
  *   <li>{@link #pollOrWaitEvent(long) waits} or {@link #pollEvent() asks} for a keyboard event or a pointer event.
- * </li>
+ * </ul>
  *
  * This object is created by the {@link Application}.
  */

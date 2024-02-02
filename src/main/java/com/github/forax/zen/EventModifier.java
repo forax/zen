@@ -9,10 +9,15 @@ import java.util.Set;
  *   An event modifier used by both {@link KeyboardEvent} and {@link PointerEvent}.
  */
 public enum EventModifier {
+  /** The META modifier. */
   META(InputEvent.META_DOWN_MASK),
+  /** The CTRL modifier. */
   CTRL(InputEvent.CTRL_DOWN_MASK),
+  /** The ALT modifier. */
   ALT(InputEvent.ALT_DOWN_MASK),
+  /** The SHIFT modifier. */
   SHIFT(InputEvent.SHIFT_DOWN_MASK),
+  /** The ALT_GR modifier. */
   ALT_GR(InputEvent.ALT_GRAPH_DOWN_MASK);
 
   private final int modifier;

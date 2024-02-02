@@ -2,13 +2,11 @@ package com.github.forax.zen;
 
 /**
  * Screen size (width x height).
+ *
+ * @param width width of the application screen.
+ * @param height height of the application screen.
  */
-public record ScreenInfo(
-    /** width of the application screen. */
-    int width,
-    /** height of the application screen */
-    int height
-) {
+public record ScreenInfo(int width, int height) {
   @Override
   public String toString() {
     return "ScreenInfo (" + width + " x " + height + ")";
