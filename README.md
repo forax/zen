@@ -2,7 +2,7 @@
 A bare bone graphic library in Java (on top of AWT) for teaching purpose, use at your own risk.
 
 Download [zen-6.0.jar](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0.jar),
-[zen-6.0-sources.jar](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0-sources.jar) or
+[zen-6.0-sources.jar](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0-sources.jar) or/and
 [zen-6.0-javadoc.jar](https://jitpack.io/com/github/forax/zen/6.0/zen-6.0-javadoc.jar).
 
 Zen provides
