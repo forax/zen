@@ -25,7 +25,7 @@ Zen provides
   context.renderFrame(graphics2D -> {
     // use the Graphics2D object to draw
     ...
-  })
+  });
   ```
 
 ### How to use Zen with Eclipse ?
