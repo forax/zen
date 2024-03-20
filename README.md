@@ -80,12 +80,32 @@ Zen provides
   Oracle has is a nice tutorial explaining how to use the class `Graphics2D`,
   https://docs.oracle.com/javase/tutorial/2d/
 
-### Where is the javadoc of Zen ?
-  The javadoc is [available online](https://jitpack.io/com/github/forax/zen/6.0/javadoc/).
-  
-### Is there a demo file of Zen ?
-  Yes, see [Demo.java](src/test/java/com/github/forax/zen/Demo.java)
+### How to load images (PNG, JPEG, etc.) ?
+  Images can be loaded using the package
+  [imageio](https://docs.oracle.com/en/java/javase/21/docs/api/java.desktop/javax/imageio/package-summary.html).
+  Here is an example
+  ```java
+  String imageName = ...
+  BufferedImage image;
+  try(InputStream input = MyClass.class.getResourceAsStream("/images/" + imageName)) {
+    image = ImageIO.read(input);
+  }
+  ```
+  With the images stored in a sub folder `images` of the jar file.
+
+  If you are using `eclipse`, if you create the folder `images` in `src`, it will be copied into `bin` automatically.
+  If you are using `maven` or `gradle`, if you create the folder `images` in `src/main/resources`, it will be copied
+  into `target/classes` automatically. If you are using `ant`, you have to copy the folder using the task `copy`.
+
+  The `BufferedImage` can later be drawn to the screen buffer using the method
+  [graphics2D.drawImage(image, x, y, null)](https://docs.oracle.com/en/java/javase/21/docs/api/java.desktop/java/awt/Graphics.html#drawImage(java.awt.Image,int,int,java.awt.image.ImageObserver)).
 
 ### How can i create buttons and other graphics components
   The idea of Zen is to provide just the bare minimum to draw something on screen, exposing an instance of `Graphics2D`.
   If you want graphics components, you have to implement them by yourself, on top of Zen, which is a nice exercice BTW.
+
+### Where is the javadoc of Zen ?
+  The javadoc is [available online](https://jitpack.io/com/github/forax/zen/6.0/javadoc/).
+  
+### Is there a demo file of Zen ?
+  Yes, see [Demo.java](src/test/java/com/github/forax/zen/demo/Demo.java)
