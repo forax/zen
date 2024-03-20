@@ -1,4 +1,9 @@
-package com.github.forax.zen;
+package com.github.forax.zen.demo;
+
+import com.github.forax.zen.Application;
+import com.github.forax.zen.Event;
+import com.github.forax.zen.KeyboardEvent;
+import com.github.forax.zen.PointerEvent;
 
 import java.awt.Color;
 import java.util.List;
